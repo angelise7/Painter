@@ -1,5 +1,6 @@
-export * from './lib/downloader';
-export * from './lib/gradient';
-export * from './lib/pen';
-export * from './lib/qrcode';
-export * from './lib/util';
+
+const Pen = require('./lib/pen');
+const Downloader = require('./lib/downloader');
+const util = require('./lib/util');
+
+export * from Pen, Downloader, util
